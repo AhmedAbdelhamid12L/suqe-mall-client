@@ -1,0 +1,232 @@
+body {
+  font-family: "Segoe Ui Light";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  padding: 4rem;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: .5rem;
+}
+
+.oneProduct {
+  width: 30%;
+  margin-bottom: 1.5rem;
+  background-color: #fff;
+  box-shadow: 1px 2px 3px rgba(177, 175, 175, 0.3);
+  transition: all .3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.oneProduct:hover {
+  box-shadow: 5px 5px 6px rgba(71, 69, 69, 0.3);
+}
+
+.instock {
+  position: absolute;
+  background-color: rgba(236, 234, 234, 0.6);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.prodDesc {
+  text-align: center;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+.addToCart {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cart {
+  width:1.875rem;
+  height: 1.875rem;
+  cursor: pointer;
+}
+
+.available {
+  color: rgb(53, 160, 53);
+  padding-bottom: .8rem;
+}
+
+.unavailable {
+  color: rgb(200, 9, 9);
+  padding-bottom: .8rem;
+}
+
+.productImg img {
+  width: 100%;
+}
+
+.btn {
+  padding: 1rem 1.5rem;
+  background-color: rgb(53, 160, 53);
+  color: #fff;
+  border-radius: .3rem;
+  font-size: 1rem;
+  border: none;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.btnTwo {
+  padding: 1rem 1.5rem;
+  background-color: rgb(202, 18, 12);
+  color: #fff;
+  border-radius: .3rem;
+  font-size: 1rem;
+  border: none;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+
+
+.Notfound {
+  padding: 3rem;
+}
+
+.Notfound-h1 {
+  font-size: 2.2rem;
+  padding: 1rem;
+}
+
+.Notfound-p {
+  font-size: 1.7rem;
+  padding: 1rem;
+}
+
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery-one {
+  min-width: 45%;
+  max-width: 45%;
+}
+
+.gallery-one img {
+  width: 100%;
+  padding: 1rem;
+}
+
+.gallery-img {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  min-width: 15%;
+  max-width: 15%;
+}
+
+.gallery-img img {
+  width: 100%;
+  padding: 1rem;
+}
+
+.Desc {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.Desc-cart {
+  float: right;
+  margin-bottom: 1.2rem;
+}
+
+.clear {
+  clear: both;
+}
+
+.attributes {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  padding-bottom: .8rem;
+}
+
+.attributesCart {
+  font-size: 1.5rem;
+  padding-bottom: .8rem;
+}
+
+
+.item {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding: .5rem;
+  margin: .5rem;
+  background-color: greenyellow;
+  color: #000;
+  border-radius: .2rem;
+}
+
+.itemColor {
+  width: 1.5rem;
+  height: 1.5rem;
+  text-decoration: none;
+  display: inline-block;
+  padding: .5rem;
+  margin: .5rem .5rem 0rem .5rem;
+  border-radius: .2rem;
+  border: .2rem solid rgb(255, 94, 0);
+}
+
+.cartShow {
+  display: flex;
+  justify-content: space-around;
+}
+
+.num-div {
+  width: 30%;
+  font-size: 1.2rem;
+}
+
+#input-nm {
+  width: 40%;
+  height: 30%;
+}
+
+.num-img {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.prod-image {
+  max-width:60%;
+  min-width:60%;
+}
+
+.prod-image img {
+  width: 100%;
+}
+
+.desc-prod {
+  width: 35%;
+}
+
+
+.Success {
+  color: rgb(53, 160, 53);
+}

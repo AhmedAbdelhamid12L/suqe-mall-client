@@ -1,0 +1,67 @@
+.Nav {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  z-index: 300;
+  /* background-color: blue; */
+}
+
+.active {
+  color: rgb(53, 160, 53);
+  border-bottom: 2px solid rgb(53, 160, 53) ;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0rem 1rem;
+}
+
+ul li a {
+  text-decoration: none;
+  color: rgb(12, 12, 12);
+  padding-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+ul li img {
+  width: 1.875rem;
+  height: 1.875rem;
+  cursor: pointer;
+}
+
+.bagImage {
+  width: 1.875rem;
+  height: 1.875rem;
+  cursor: pointer;
+}
+
+ul select {
+  padding: .4rem 0rem .8rem;
+  margin-bottom: .3rem;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.option {
+  text-align: center;
+}
+
+.arrCon {
+  position: relative;
+}
+
+.arrNu {
+  position: absolute;
+  top: -.7rem;
+  right: 1.25rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-color: rgba(19, 18, 18, 0.9);
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+}
