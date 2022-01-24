@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/suqe-mall-client/static/css/main.a3fd27f1.css",
+    "main.js": "/suqe-mall-client/static/js/main.ee936e23.js",
+    "static/js/787.070db070.chunk.js": "/suqe-mall-client/static/js/787.070db070.chunk.js",
+    "index.html": "/suqe-mall-client/index.html",
+    "main.a3fd27f1.css.map": "/suqe-mall-client/static/css/main.a3fd27f1.css.map",
+    "main.ee936e23.js.map": "/suqe-mall-client/static/js/main.ee936e23.js.map",
+    "787.070db070.chunk.js.map": "/suqe-mall-client/static/js/787.070db070.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3fd27f1.css",
+    "static/js/main.ee936e23.js"
+  ]
+}
